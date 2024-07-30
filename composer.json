@@ -1,0 +1,23 @@
+{
+    "name": "david/doc-blaster",
+    "autoload": {
+        "psr-4": {
+            "David\\DocBlaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Lambauer",
+            "email": "david@run-as-root.sh"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "openai-php/client": "^0.6.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
